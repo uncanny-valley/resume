@@ -1,0 +1,252 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+	\vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+	\item\small{
+		{#1 \vspace{-2pt}}
+	}
+}
+
+\newcommand{\resumeSubheading}[4]{
+	\vspace{-2pt}\item
+	\begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+		\textbf{#1} & #2 \\
+		\textit{\small#3} & \textit{\small #4} \\
+	\end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+	\item
+	\begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+		\textit{\small#1} & \textit{\small #2} \\
+	\end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+	\item
+	\begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+		\small#1 & #2 \\
+	\end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+	\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+	\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+	
+	%----------HEADING----------
+	% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+	%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+	%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+	% \end{tabular*}
+	
+	\begin{center}
+		\textbf{\Huge \scshape Brandon Fujii} \\ \vspace{2pt}
+		\small 626-673-1360 $|$ \href{mailto:brandon.fujii.diaz@gmail.com}{\underline{brandon.fujii.diaz@gmail.com}} $|$ 
+		\href{https://linkedin.com/in/bfujii}{\underline{linkedin.com/in/bfujii}} $|$
+		\href{https://github.com/...}{\underline{github.com/uncanny-valley}}
+	\end{center}
+	
+		%
+	%-----------PROGRAMMING SKILLS-----------
+	\section{Technical Skills}
+	\begin{itemize}[leftmargin=0.15in, label={}]
+		\small{\item{
+				\textbf{Languages}{:  Python, Go, Java, Julia, SQL} \\
+				\textbf{Cloud}{:  Amazon Web Services, Apache distributed ecosystem, Databricks} \\
+				\textbf{Data Science}{:  data wrangling, feature engineering, exploratory data analysis, data modeling, hyperparameter optimization, data storytelling, supervised learning, unsupervised learning, reinforcement learning, hypothesis testing} \\
+				\textbf{Libraries}{: Pandas, NumPy, Scikit Learn, TensorFlow, Optuna, Matplotlib}
+		}}
+	\end{itemize}
+
+		
+	%-----------PROJECTS-----------
+	\section{Projects}
+	\resumeSubHeadingListStart
+	\resumeProjectHeading
+	{\textbf{Predicting Diabetic Early Readmission} $|$ \emph{Python, Scikit Learn, Optuna}}{Apr 2021 - May 2021}
+	\resumeItemListStart
+	\resumeItem{Given the costliness of unplanned early hospital readmission, sought to develop an accurate method of identifying diabetic patients at risk of readmitting early}
+	\resumeItem{Conducted exploratory data analysis, feature engineering, model selection, and hyperparameter optimization to train a random forest model to classify a patient as at risk for early readmission, based on hospital data}
+	\resumeItem{Identified 62\% of non-early readmission patients and 61\% of early readmission patients, about a 20\% improvement from traditional assessment tools}
+	
+	\resumeItemListEnd
+	\resumeProjectHeading
+	{\textbf{Autonomous Car Racing Agent} $|$ \emph{Python, TensorFlow, OpenAI Gym}}{Jun 2021 - Aug 2021}
+	\resumeItemListStart
+	\resumeItem{Attempted to maneuver a virtual car around an in-game track without hard-coded business logic, as part of OpenAI's car racing Gym environment}
+	\resumeItem{Trained a deep Q-network to estimate the values of performing steering, acceleration, and braking actions for a given in-game frame and inform an agent's decision-making}
+	\resumeItem{The resulting agent successfully navigates the entirety of the track, achieving an average of 820 out of a possible 1000 reward points over 100 trials}
+	\resumeItemListEnd
+	\resumeSubHeadingListEnd
+
+	
+	%-----------EXPERIENCE-----------
+	\section{Experience}
+	\resumeSubHeadingListStart
+	
+	\resumeSubheading
+	{Software Engineer II}{Sep. 2019 -- Present}
+	{Amazon Web Services}{Seattle, WA}
+	
+	\resumeItemListStart
+	\resumeItem{Worked with a team that automatically disseminates security and kernel patches for over 2 million Amazon hosts}
+	\resumeItemListEnd
+	
+	\resumeSubSubheading{Heterogeneous Fleets Project}{2021}
+		\resumeItemListStart
+		\resumeItem{Tasked with an organization-wide goal of finding a way to deploy two types of Amazon Machine Images (AMI) through internal continuous deployment pipelines}
+		\resumeItem{Deploying more than one AMI allows teams to house two incompatible types of instances in a single fleet and gradually shift their traffic from their older instances to newer instances}
+		\resumeItem{Created a Go CodeDeploy script that manually vends AMIs at the host-level, granting customers the flexibility to provision different operating systems and architectures without having to construct a separate pipeline}
+		\resumeItem{The script allowed several teams to migrate to more efficient hardware, thereby saving millions in costs}
+		\resumeItemListEnd
+
+	\resumeSubSubheading{Custom Hash Host Selection Project}{2020}
+		\resumeItemListStart
+		\resumeItem{Owned a greedy host selection algorithm that decides how to maximize the number of hosts to simultaneously patch in a customer's fleet, while still satisfying the customer's fleet health constraints}
+		\resumeItem{A large AWS customer had subsets of hosts that could not be patched together as they contained the same replicas for data redundancy}
+		\resumeItem{Created a new host selection algorithm in Java that prevents similar hosts from being patched together while also satisfying normal fleet health constraints}
+		\resumeItem{The large AWS customer observed improved safety and about a 30\% reduction in time to patch their hosts}
+		\resumeItemListEnd	
+			
+	% -----------Multiple Positions Heading-----------
+	%    \resumeSubSubheading
+	%     {Software Engineer I}{Oct 2014 - Sep 2016}
+	%     \resumeItemListStart
+	%        \resumeItem{Apache Beam}
+	%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+	%     \resumeItemListEnd
+	%    \resumeSubHeadingListEnd
+	%-------------------------------------------
+	
+	\resumeSubheading
+	{Research Assistant}{Jun. 2019 -- Sep. 2019}
+	{Northwestern University (LCAN Lab)}{Evanston, IL}
+	\resumeItemListStart
+	\resumeItem{Given the relationship between speech and movement disorders, sought to create a method to automatically detect early Parkinson's disease (PD) in patients through analysis of their speech}
+	\resumeItem{Engineered features based on linguistic errors patients produced during speech tasks and used a weighted K-nearest neighbor model to classify a patient as control or PD} 
+	\resumeItem{The model discriminated between Parkinson's and control patients with more than 88\% accuracy}
+	\resumeItem{Presented this poster at the World Congress on Parkinson's Disease and Related Disorders}
+	\resumeItemListEnd
+	
+		
+	\resumeSubheading
+	{Software Engineering Intern}{Jun. 2018 -- Sep. 2018}
+	{Amazon Web Services}{Seattle, WA}
+	\resumeItemListStart
+	\resumeItem{Worked with a security patching team to improve the usability of an internal host-patching tool}
+	\resumeItem{Tasked with creating an web interface where customers can visualize and interact with their patching pipelines, which are the logical entities used to group hosts that require security or kernel patching}
+	\resumeItem{Used Ruby on Rails to create an entirely new website with a webpage for creating a patching pipeline, a view to start and cancel a workflow to patch their pipeline's hosts, and an option to delete vestigial pipelines}
+	\resumeItem{Release of this feature improved developer productivity and increased website usage by over 50\%}
+	\resumeItemListEnd
+	
+	\resumeSubheading
+	{Software Engineering Intern}{Jun. 2017 -- Sep. 2017}
+	{Tumblr}{New York City, NY}
+	\resumeItemListStart
+	\resumeItem{Worked with the product engineering team}
+	\resumeItem{Tasked with developing a more efficient way to share to Tumblr for power users}
+	\resumeItem{Using JavaScript, PHP, and MySQL, developed a new browser share tool, which allows users to post third-party media to the site without directly visiting}
+	\resumeItem{Observed an average increase of 20\% in installations across Chrome and Firefox extensions}
+	\resumeItemListEnd
+	
+		
+	\resumeSubheading
+	{Teaching Assistant and Peer Mentor}{Sep. 2014 -- Jun. 2019}
+	{Northwestern University}{Evanston, IL}
+	\resumeItemListStart
+	\resumeItem{Peer-mentored various courses throughout my undergraduate tenure, including Introduction to Machine Learning, Introduction to Database Systems, Introduction to Artificial Intelligence, and Computer Programming in Racket}
+	\resumeItem{Teaching assistant for a software engineering course called NUvention Web and Media}
+	\resumeItemListEnd
+	
+	\resumeSubHeadingListEnd
+	
+	%-----------EDUCATION-----------
+	\section{Education}
+	\resumeSubHeadingListStart
+	\resumeSubheading
+	{Northwestern University}{Evanston, IL}
+	{BA in Computer Science}{2014 - 2018}
+	\resumeSubheading
+	{Northwestern University}{Evanston, IL}
+	{MS in Computer Science}{2018 - 2019}
+	
+	\resumeSubheading
+	{Springboard}{Remote}
+	{6-month intensive course in data science, machine learning, Python, and SQL}{Mar 2021 - Sep 2021}
+	\resumeSubHeadingListEnd
+	
+	
+	%-------------------------------------------
+\end{document}
