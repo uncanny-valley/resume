@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.8.26)  27 AUG 2021 16:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.8.26)  4 SEP 2021 01:48
 entering extended mode
 **./resume.tex
 (resume.tex
@@ -388,24 +388,25 @@ Package rerunfilecheck Info: File `resume.out' has not changed.
 (rerunfilecheck)             Checksum: 91A6F1AEC2C9C5D55321E46B2F632110;390.
  ) 
 Here is how much of TeX's memory you used:
- 9746 strings out of 478864
- 145444 string characters out of 2848660
- 499078 words of memory out of 3000000
- 27542 multiletter control sequences out of 15000+600000
- 409022 words of font info for 49 fonts, out of 8000000 for 9000
+ 9748 strings out of 478864
+ 145466 string characters out of 2848660
+ 501078 words of memory out of 3000000
+ 27543 multiletter control sequences out of 15000+600000
+ 409357 words of font info for 50 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,11n,66p,289b,532s stack positions out of 5000i,500n,10000p,200000b,80000s
-<C:/Users/brand/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
-cmbx10.pfb><C:/Users/brand/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
-fonts/cm/cmbx12.pfb><C:/Users/brand/AppData/Local/Programs/MiKTeX/fonts/type1/p
-ublic/amsfonts/cm/cmcsc10.pfb><C:/Users/brand/AppData/Local/Programs/MiKTeX/fon
-ts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/brand/AppData/Local/Programs/Mi
-KTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/brand/AppData/Local/Pr
-ograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/brand/AppData/
-Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on resume.pdf (2 pages, 114004 bytes).
+ 60i,11n,66p,289b,592s stack positions out of 5000i,500n,10000p,200000b,80000s
+ <C:\Users\brand\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm
+1000.pk><C:/Users/brand/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
+ts/cm/cmbx10.pfb><C:/Users/brand/AppData/Local/Programs/MiKTeX/fonts/type1/publ
+ic/amsfonts/cm/cmbx12.pfb><C:/Users/brand/AppData/Local/Programs/MiKTeX/fonts/t
+ype1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/brand/AppData/Local/Programs/MiKT
+eX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/brand/AppData/Local/Progr
+ams/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/brand/AppData/Lo
+cal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/brand/Ap
+pData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on resume.pdf (2 pages, 114634 bytes).
 PDF statistics:
- 72 PDF objects out of 1000 (max. 8388607)
+ 77 PDF objects out of 1000 (max. 8388607)
  7 named destinations out of 1000 (max. 500000)
  33 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -115,7 +115,7 @@
 		\textbf{\Huge \scshape Brandon Fujii} \\ \vspace{2pt}
 		\small 626-673-1360 $|$ \href{mailto:brandon.fujii.diaz@gmail.com}{\underline{brandon.fujii.diaz@gmail.com}} $|$ 
 		\href{https://linkedin.com/in/bfujii}{\underline{linkedin.com/in/bfujii}} $|$
-		\href{https://github.com/...}{\underline{github.com/uncanny-valley}}
+		\href{https://github.com/uncanny-valley}{\underline{github.com/uncanny-valley}}
 	\end{center}
 	
 		%
@@ -124,7 +124,7 @@
 	\begin{itemize}[leftmargin=0.15in, label={}]
 		\small{\item{
 				\textbf{Languages}{:  Python, Go, Java, Julia, SQL} \\
-				\textbf{Cloud}{:  Amazon Web Services, Apache distributed ecosystem, Databricks} \\
+				\textbf{Cloud}{: EC2, DynamoDB, CloudFormation, SQS, SNS, Apache Spark, Hadoop, Hive, Impala, Paperspace, Databricks} \\
 				\textbf{Data Science}{:  data wrangling, feature engineering, exploratory data analysis, data modeling, hyperparameter optimization, data storytelling, supervised learning, unsupervised learning, reinforcement learning, hypothesis testing} \\
 				\textbf{Libraries}{: Pandas, NumPy, Scikit Learn, TensorFlow, Optuna, Matplotlib}
 		}}
@@ -157,7 +157,7 @@
 	\resumeSubHeadingListStart
 	
 	\resumeSubheading
-	{Software Engineer II}{Sep. 2019 -- Present}
+	{Software Engineer II}{Sep. 2019 -- May 2021}
 	{Amazon Web Services}{Seattle, WA}
 	
 	\resumeItemListStart
@@ -166,18 +166,16 @@
 	
 	\resumeSubSubheading{-- Heterogeneous Fleets Project}{}
 		\resumeItemListStart
-		\resumeItem{Tasked with an organization-wide goal of finding a way to deploy two types of Amazon Machine Images (AMI) through internal continuous deployment pipelines}
-		\resumeItem{Deploying more than one AMI allows teams to house two incompatible types of instances in a single fleet and gradually shift their traffic from their older instances to newer instances}
-		\resumeItem{Created a Go CodeDeploy script that manually vends AMIs at the host-level, granting customers the flexibility to provision different operating systems and architectures without having to construct a separate pipeline}
-		\resumeItem{The script allowed several teams to migrate to more efficient hardware, thereby saving millions in costs}
+		\resumeItem{Tasked with an organization-wide goal to accommodate two types of EC2 instances in one fleet}
+		\resumeItem{Created a Go CodeDeploy script that allowed customers to deploy two Amazon Machine Images (AMI) through their continuous deployment pipelines}
+		\resumeItem{Granted customers the flexibility to provision different operating systems and architectures without having to maintain multiple pipelines}
+		\resumeItem{Allowed several teams to migrate to more efficient hardware, saving over \$200 million in hardware costs}
 		\resumeItemListEnd
 
 	\resumeSubSubheading{-- Custom Hash Host Selection Project}{}
 		\resumeItemListStart
-		\resumeItem{Owned a greedy host selection algorithm that decides how to maximize the number of hosts to simultaneously patch in a customer's fleet, while still satisfying the customer's fleet health constraints}
-		\resumeItem{A large AWS customer had subsets of hosts that could not be patched together as they contained the same replicas for data redundancy}
-		\resumeItem{Created a new host selection algorithm in Java that prevents similar hosts from being patched together while also satisfying normal fleet health constraints}
-		\resumeItem{The large AWS customer observed improved safety and about a 30\% reduction in time to patch their hosts}
+		\resumeItem{Created a new host selection algorithm in Java that prevents similar hosts from being patched together while also maximizing host up-time}
+		\resumeItem{Improved patching safety and reduced the time to patch a large AWS service's hosts by about 30\%}
 		\resumeItemListEnd	
 			
 	% -----------Multiple Positions Heading-----------
@@ -194,10 +192,10 @@
 	{Research Assistant}{Jun. 2019 -- Sep. 2019}
 	{Northwestern University (LCAN Lab)}{Evanston, IL}
 	\resumeItemListStart
-	\resumeItem{Given the relationship between speech and movement disorders, sought to create a method to automatically detect early Parkinson's disease (PD) in patients through analysis of their speech}
-	\resumeItem{Engineered features based on linguistic errors patients produced during speech tasks and used a weighted K-nearest neighbor model to classify a patient as control or PD} 
-	\resumeItem{The model discriminated between Parkinson's and control patients with more than 88\% accuracy}
-	\resumeItem{Presented this poster at the World Congress on Parkinson's Disease and Related Disorders}
+	\resumeItem{Tasked to create a method to automatically detect early Parkinson's disease (PD) in patients through speech features}
+	\resumeItem{Engineered features based on linguistic errors patients produced during speech tasks}
+	\resumeItem{Used a weighted K-nearest neighbor model that classified control and PD patients with more than 88\% accuracy}
+	\resumeItem{Presented poster at the World Congress on Parkinson's Disease and Related Disorders}
 	\resumeItemListEnd
 	
 		
